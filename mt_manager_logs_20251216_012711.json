@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "01:21:32",
+    "api_name": "java.lang.reflect.Method.invoke",
+    "details": {},
+    "stack_trace": [
+      "└── java.lang.reflect.Method.invoke()",
+      "└── l.\\u1a74\\u0736\\u06e0.\\u1a7b()",
+      "└── l.\\u1a77\\u1a76\\u06e0.\\u1a7b()",
+      "└── l.\\u1a7a\\u0736\\u06e0.\\u1a7b()",
+      "└── l.\\u1a7a\\u0736\\u06e0.\\u05a8()",
+      "└── l.\\u06da\\u073f\\u0736.\\u05ab()",
+      "└── l.\\u06d7\\u073f\\u0736.\\u05ab()",
+      "└── l.\\u06eb\\u1a73\\u06e8.\\u05a8()",
+      "└── l.\\u06da\\u073f\\u0736.\\u1a7b()",
+      "└── l.\\u06da\\u073f\\u0736.\\u05ab\\u1a7b()",
+      "└── l.\\u1a76\\u06eb\\u0736.\\u0736()",
+      "└── l.\\u1a77\\u06e0\\u0736.\\u1a7b()",
+      "└── l.\\u073f\\u05ab\\u06e8.\\u1a7b()",
+      "└── l.\\u0733\\u05ab\\u06e8.onTouchEvent()",
+      "└── android.view.View.dispatchTouchEvent()",
+      "└── android.view.ViewGroup.dispatchTransformedTouchEvent()",
+      "└── android.view.ViewGroup.dispatchTouchEvent()"
+    ]
+  }
+]

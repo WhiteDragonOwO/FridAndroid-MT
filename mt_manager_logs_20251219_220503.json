@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2025-12-19T14:03:00.074Z",
+    "apiName": "java.lang.Class.forName",
+    "details": {
+      "className": "java.lang.Class",
+      "initialize": false
+    },
+    "stackTrace": [
+      "libcore.reflect.ParameterizedTypeImpl.getRawType()",
+      "libcore.reflect.ParameterizedTypeImpl.getRawType()",
+      "java.lang.reflect.Constructor.newInstance()",
+      "android.view.LayoutInflater.createView()",
+      "com.android.internal.policy.PhoneLayoutInflater.onCreateView()",
+      "android.view.LayoutInflater.onCreateView()",
+      "android.view.LayoutInflater.createViewFromTag()",
+      "android.view.LayoutInflater.createViewFromTag()",
+      "android.view.LayoutInflater.inflate()",
+      "android.view.LayoutInflater.inflate()",
+      "l.᩹ۗ.ۗܽۗ()",
+      "l.ۛۚ֨.᩻()"
+    ],
+    "riskLevel": "LOW",
+    "riskReason": "Normal operation"
+  }
+]

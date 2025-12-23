@@ -1,0 +1,310 @@
+[
+  {
+    "timestamp": "09:47:06",
+    "api_name": "java.io.FileInputStream.read(重载3)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": [
+      "└── l.\\u1a77\\u1a78\\u1a75.\\u05ab()",
+      "└── l.\\u073a\\u1a79\\u1a75.read()",
+      "└── android.graphics.BitmapFactory.nativeDecodeStream()",
+      "└── android.graphics.BitmapFactory.decodeStreamInternal()",
+      "└── android.graphics.BitmapFactory.decodeStream()",
+      "└── android.graphics.BitmapFactory.decodeStream()",
+      "└── l.\\u1a76\\u06dc\\u06e8.\\u1a7b()",
+      "└── l.\\u06e8\\u06eb\\u0736.\\u1a7b()",
+      "└── l.\\u06db\\u06da\\u0736.\\u1a7b()",
+      "└── l.\\u1a73\\u06e8\\u0736.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:07",
+    "api_name": "java.io.File.renameTo",
+    "details": {
+      "file_path": "/data/user/0/bin.mt.plus/shared_prefs/bookmarks.xml.bak"
+    },
+    "stack_trace": [
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.QueuedWork.processPendingWork()",
+      "└── android.app.QueuedWork.access$000()",
+      "└── android.app.QueuedWork$QueuedWorkHandler.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:08",
+    "api_name": "java.io.FileOutputStream.write(重载3)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": [
+      "└── com.android.internal.util.FastXmlSerializer.flushBytes()",
+      "└── com.android.internal.util.FastXmlSerializer.flush()",
+      "└── com.android.internal.util.FastXmlSerializer.endDocument()",
+      "└── com.android.internal.util.XmlUtils.writeMapXml()",
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.QueuedWork.processPendingWork()",
+      "└── android.app.QueuedWork.access$000()",
+      "└── android.app.QueuedWork$QueuedWorkHandler.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:08",
+    "api_name": "java.io.File.delete",
+    "details": {
+      "file_path": "/data/user/0/bin.mt.plus/shared_prefs/bookmarks.xml.bak"
+    },
+    "stack_trace": [
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.QueuedWork.processPendingWork()",
+      "└── android.app.QueuedWork.access$000()",
+      "└── android.app.QueuedWork$QueuedWorkHandler.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.File.renameTo",
+    "details": {
+      "file_path": "/data/user/0/bin.mt.plus/shared_prefs/bookmarks.xml.bak"
+    },
+    "stack_trace": [
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.QueuedWork.processPendingWork()",
+      "└── android.app.QueuedWork.access$000()",
+      "└── android.app.QueuedWork$QueuedWorkHandler.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.FileOutputStream.write(重载3)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": [
+      "└── com.android.internal.util.FastXmlSerializer.flushBytes()",
+      "└── com.android.internal.util.FastXmlSerializer.flush()",
+      "└── com.android.internal.util.FastXmlSerializer.endDocument()",
+      "└── com.android.internal.util.XmlUtils.writeMapXml()",
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.QueuedWork.processPendingWork()",
+      "└── android.app.QueuedWork.access$000()",
+      "└── android.app.QueuedWork$QueuedWorkHandler.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.File.delete",
+    "details": {
+      "file_path": "/data/user/0/bin.mt.plus/shared_prefs/bookmarks.xml.bak"
+    },
+    "stack_trace": [
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.QueuedWork.processPendingWork()",
+      "└── android.app.QueuedWork.access$000()",
+      "└── android.app.QueuedWork$QueuedWorkHandler.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.FileOutputStream.write(重载3)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": []
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.File.renameTo",
+    "details": {
+      "file_path": "/data/user/0/bin.mt.plus/shared_prefs/umeng_general_config.xml.bak"
+    },
+    "stack_trace": [
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.SharedPreferencesImpl.enqueueDiskWrite()",
+      "└── android.app.SharedPreferencesImpl.access$100()",
+      "└── android.app.SharedPreferencesImpl$EditorImpl.commit()",
+      "└── com.umeng.analytics.pro.u.c()",
+      "└── com.umeng.analytics.pro.o.a()",
+      "└── com.umeng.analytics.CoreProtocol.workEvent()",
+      "└── com.umeng.commonsdk.framework.UMWorkDispatch.handleEvent()",
+      "└── com.umeng.commonsdk.framework.UMWorkDispatch.access$000()",
+      "└── com.umeng.commonsdk.framework.UMWorkDispatch$1.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()",
+      "└── l.\\u073f\\u06e1\\u06e8.\\u1a7b()",
+      "└── l.\\u0736\\u06e1\\u06e8.\\u05ab()",
+      "└── l.\\u0736\\u06e1\\u06e8.\\u1a7b()",
+      "└── l.\\u06d8\\u1a77\\u05a8.run()",
+      "└── java.util.concurrent.ThreadPoolExecutor.runWorker()",
+      "└── java.util.concurrent.ThreadPoolExecutor$Worker.run()",
+      "└── java.lang.Thread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.File.delete",
+    "details": {
+      "file_path": "/data/user/0/bin.mt.plus/shared_prefs/umeng_general_config.xml.bak"
+    },
+    "stack_trace": [
+      "└── android.app.SharedPreferencesImpl.writeToFile()",
+      "└── android.app.SharedPreferencesImpl.access$900()",
+      "└── android.app.SharedPreferencesImpl$2.run()",
+      "└── android.app.SharedPreferencesImpl.enqueueDiskWrite()",
+      "└── android.app.SharedPreferencesImpl.access$100()",
+      "└── android.app.SharedPreferencesImpl$EditorImpl.commit()",
+      "└── com.umeng.analytics.pro.u.c()",
+      "└── com.umeng.analytics.pro.o.a()",
+      "└── com.umeng.analytics.CoreProtocol.workEvent()",
+      "└── com.umeng.commonsdk.framework.UMWorkDispatch.handleEvent()",
+      "└── com.umeng.commonsdk.framework.UMWorkDispatch.access$000()",
+      "└── com.umeng.commonsdk.framework.UMWorkDispatch$1.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.os.HandlerThread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.FileInputStream.read(重载2)",
+    "details": {
+      "param_count": 1
+    },
+    "stack_trace": [
+      "└── l.\\u1a74\\u06d9\\u1a75.\\u1a7b()",
+      "└── l.\\u1a74\\u06d9\\u1a75.\\u1a7b()",
+      "└── l.\\u06e7\\u06dc\\u06e8.\\u1a7b()",
+      "└── l.\\u073a\\u1a78\\u1a76.\\u06d8\\u05ab()",
+      "└── l.\\u05ab\\u073f\\u1a76.onCreate()",
+      "└── android.app.Activity.performCreate()",
+      "└── android.app.Activity.performCreate()",
+      "└── android.app.Instrumentation.callActivityOnCreate()",
+      "└── android.app.ActivityThread.performLaunchActivity()",
+      "└── android.app.ActivityThread.handleLaunchActivity()",
+      "└── android.app.servertransaction.LaunchActivityItem.execute()",
+      "└── android.app.servertransaction.TransactionExecutor.executeCallbacks()",
+      "└── android.app.servertransaction.TransactionExecutor.execute()",
+      "└── android.app.ActivityThread$H.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── android.app.ActivityThread.main()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.FileInputStream.read(重载3)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": [
+      "└── java.io.FileInputStream.read()",
+      "└── java.io.FileInputStream.read()",
+      "└── l.\\u1a74\\u06d9\\u1a75.\\u1a7b()",
+      "└── l.\\u1a74\\u06d9\\u1a75.\\u1a7b()",
+      "└── l.\\u06e7\\u06dc\\u06e8.\\u1a7b()",
+      "└── l.\\u073a\\u1a78\\u1a76.\\u06d8\\u05ab()",
+      "└── l.\\u05ab\\u073f\\u1a76.onCreate()",
+      "└── android.app.Activity.performCreate()",
+      "└── android.app.Activity.performCreate()",
+      "└── android.app.Instrumentation.callActivityOnCreate()",
+      "└── android.app.ActivityThread.performLaunchActivity()",
+      "└── android.app.ActivityThread.handleLaunchActivity()",
+      "└── android.app.servertransaction.LaunchActivityItem.execute()",
+      "└── android.app.servertransaction.TransactionExecutor.executeCallbacks()",
+      "└── android.app.servertransaction.TransactionExecutor.execute()",
+      "└── android.app.ActivityThread$H.handleMessage()",
+      "└── android.os.Handler.dispatchMessage()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.FileReader.read(重载2)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": [
+      "└── l.\\u06e4\\u073a\\u06db.\\u06db()",
+      "└── l.\\u06e4\\u073a\\u06db.read()",
+      "└── l.\\u0730\\u06e8\\u1a76.\\u1a7b()",
+      "└── l.\\u0730\\u06e8\\u1a76.\\u1a7b()",
+      "└── l.\\u06e1\\u06e8\\u1a76.call()",
+      "└── java.util.concurrent.FutureTask.run()",
+      "└── java.util.concurrent.ThreadPoolExecutor.runWorker()",
+      "└── java.util.concurrent.ThreadPoolExecutor$Worker.run()",
+      "└── java.lang.Thread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.FileOutputStream.write(重载3)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": [
+      "└── l.\\u073f\\u1a78\\u1a76.\\u1a7b()",
+      "└── l.\\u1a77\\u06ec\\u1a76.\\u06db()",
+      "└── l.\\u073a\\u1a78\\u1a76.\\u1a7b()",
+      "└── l.\\u073a\\u1a78\\u1a76.\\u1a7b()",
+      "└── l.\\u0736\\u073a\\u1a76.run()",
+      "└── android.os.Handler.handleCallback()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── l.\\u0736\\u06df\\u06e8.\\u1a7b()",
+      "└── l.\\u1a76\\u06df\\u06e8.run()",
+      "└── java.lang.Thread.run()"
+    ]
+  },
+  {
+    "timestamp": "09:47:16",
+    "api_name": "java.io.FileOutputStream.write(重载3)",
+    "details": {
+      "param_count": 3
+    },
+    "stack_trace": [
+      "└── l.\\u073f\\u1a78\\u1a76.\\u1a7b()",
+      "└── l.\\u1a77\\u06ec\\u1a76.\\u06db()",
+      "└── l.\\u073a\\u1a78\\u1a76.\\u1a7b()",
+      "└── l.\\u073a\\u1a78\\u1a76.\\u1a7b()",
+      "└── l.\\u0736\\u073a\\u1a76.run()",
+      "└── android.os.Handler.handleCallback()",
+      "└── android.os.Handler.dispatchMessage()",
+      "└── android.os.Looper.loop()",
+      "└── l.\\u0736\\u06df\\u06e8.\\u1a7b()",
+      "└── l.\\u1a76\\u06df\\u06e8.run()",
+      "└── java.lang.Thread.run()"
+    ]
+  }
+]
